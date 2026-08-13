@@ -10,15 +10,15 @@ import {
 const QUESTIONS = [
   {
     icon: UsersRound,
-    content: <><strong>Quem</strong> está<br />{" "}<strong>dentro da janela?</strong></>,
+    content: <><strong>Quem</strong> ainda está<br />{" "}<strong>dentro da janela?</strong></>,
   },
   {
     icon: CircleDollarSign,
-    content: <>Quanto <strong>valor</strong> está associado<br />{" "}a esses relacionamentos?</>,
+    content: <>Quanto <strong>faturamento</strong> ainda<br />{" "}pode voltar com esses nomes?</>,
   },
   {
     icon: Crosshair,
-    content: <><strong>Por onde</strong> sua clínica<br />{" "}deve começar?</>,
+    content: <><strong>Por quem</strong> a recepção<br />{" "}deve ligar primeiro?</>,
   },
 ] as const;
 
@@ -28,13 +28,13 @@ export default function DiagnosticoSection() {
       <div className="diagnostic-copy">
         <p className="diagnostic-eyebrow">Diagnóstico Reativa+</p>
         <h2 className="diagnostic-title" id="diagnostic-title">
-          Antes de decidir<br />
-          o que fazer,<br />
-          <span>descubra o que existe<br />na sua base.</span>
+          Antes de gastar<br />
+          em captar de novo,<br />
+          <span>veja o que ainda dá<br />para reativar.</span>
         </h2>
         <p className="diagnostic-lead">
-          O diagnóstico revela a condição real da sua carteira<br />{" "}
-          e indica por onde começar.
+          Em uma leitura da sua base, você sai sabendo<br />{" "}
+          quem ainda está na janela — e quem já saiu dela.
         </p>
 
         <ol className="diagnostic-questions">
@@ -66,18 +66,18 @@ export default function DiagnosticoSection() {
           <div className="diagnostic-credit">
             <CalendarDays aria-hidden="true" />
             <p>
-              Se você contratar o Reativa+<br />
-              em até <strong>30 dias</strong> após o diagnóstico,<br />
-              os R$ 197 são creditados na<br />
-              primeira mensalidade.
+              Contrate o Reativa+ em até<br />
+              <strong>30 dias</strong> após o diagnóstico e os<br />
+              R$ 197 entram como crédito na<br />
+              primeira mensalidade. Depois, não.
             </p>
           </div>
 
           <i className="diagnostic-divider diagnostic-divider-three" aria-hidden="true" />
 
           <div className="diagnostic-benefits">
-            <div><UsersRound aria-hidden="true" /><p>Mensalidade definida conforme<br />o <strong>tamanho da sua base.</strong></p></div>
-            <div><InfinityIcon aria-hidden="true" /><p>Usuários ilimitados.</p></div>
+            <div><UsersRound aria-hidden="true" /><p>Mensalidade conforme<br />o <strong>tamanho da sua base.</strong></p></div>
+            <div><InfinityIcon aria-hidden="true" /><p>Equipe toda no mesmo painel.</p></div>
           </div>
 
           <a className="diagnostic-cta" href="#diagnostico">
@@ -87,7 +87,7 @@ export default function DiagnosticoSection() {
         </article>
       </div>
 
-      <div className="diagnostic-caption"><i />O diagnóstico começa pela carteira que sua clínica já construiu.<i /></div>
+      <div className="diagnostic-caption"><i />Cada semana fora do ciclo, mais nomes saem da janela.<i /></div>
     </section>
   );
 }

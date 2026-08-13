@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: https://lp.reativamais.com
+Sitemap: https://lp.reativamais.com/sitemap.xml

@@ -5,18 +5,18 @@ import { LOGIN_URL } from "@/components/site/site-links";
 const BENEFITS = [
   {
     icon: Target,
-    title: "Priorize com inteligência",
-    copy: "Veja quem merece atenção primeiro.",
+    title: "Por quem começar",
+    copy: "A fila certa — não a lista genérica de inativos.",
   },
   {
     icon: DollarSign,
-    title: "Valor que ainda pode voltar",
-    copy: "Entenda quanto está dentro da janela.",
+    title: "Quanto ainda pode voltar",
+    copy: "O valor que ainda está dentro da janela.",
   },
   {
     icon: Clock3,
-    title: "Tempo é o que decide",
-    copy: "Saiba até quando ainda dá tempo.",
+    title: "Até quando dá tempo",
+    copy: "Depois do limite, sai da conta recuperável.",
   },
 ] as const;
 
@@ -42,21 +42,21 @@ export default function OpeningHero() {
       </header>
 
       <div className="opening-copy">
-        <p className="opening-eyebrow">Inteligência de receita para clínicas</p>
+        <p className="opening-eyebrow">Sua base ainda tem receita escondida</p>
         <h1 id="opening-title">
           <span className="opening-title-line">Transforme pacientes</span>
           <span className="opening-title-line">perdidos em</span>
           <span className="opening-title-line opening-title-accent">faturamento.</span>
         </h1>
         <p className="opening-lead">
-          <span>O Reativa+ identifica quem ainda está dentro da</span>
-          <span>janela economicamente recuperável — por quem</span>
-          <span>começar, quanto vale e até quando ainda dá tempo.</span>
+          <span>Parte da sua carteira ainda está na janela.</span>
+          <span>O Reativa+ mostra por quem começar, quanto</span>
+          <span>vale — e até quando ainda dá tempo de agir.</span>
         </p>
         <div className="opening-actions">
           <a className="opening-primary" href="#diagnostico">Quero meu diagnóstico</a>
           <a className="opening-secondary" href="#como-funciona">
-            Ver o painel de demonstração <b aria-hidden="true">→</b>
+            Ver como a janela funciona <b aria-hidden="true">→</b>
           </a>
         </div>
       </div>

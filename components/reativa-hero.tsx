@@ -16,18 +16,18 @@ export default function ReativaHero() {
             <p className="eyebrow">Ainda dá tempo</p>
             <h2 className="legacy-title" id="hero-title">
               <span className="headline-line">A janela existe.</span>
-              <span className="headline-line headline-wide">A diferença é saber</span>
+              <span className="headline-line headline-wide">O risco é não saber</span>
               <span className="headline-line headline-wide accent">quem ainda está</span>
               <span className="headline-line headline-wide accent">dentro dela.</span>
             </h2>
             <p className="description">
-              O Reativa+ mostra por quem começar,<br className="desktop-only" /> quanto ainda está associado a esses
-              relacionamentos e até quando existe oportunidade de agir.
+              Sem drama: depois do limite, o nome sai da conta recuperável.<br className="desktop-only" /> O
+              diagnóstico mostra por quem começar — enquanto ainda dá tempo.
             </p>
             <a className="cta" href="#diagnostico">
               <b>→</b><span>Quero meu diagnóstico</span>
             </a>
-            <p className="price"><span className="lock-icon" aria-hidden="true" /> Diagnóstico Reativa+ · R$ 197 · pagamento único</p>
+            <p className="price"><span className="lock-icon" aria-hidden="true" /> Diagnóstico · R$ 197 · crédito em até 30 dias se contratar</p>
           </div>
 
           <div className="timeline" aria-label="Status da oportunidade">
@@ -36,7 +36,7 @@ export default function ReativaHero() {
             <div className="risk-copy">Ainda<br />dá tempo.</div>
           </div>
 
-          <div className="panel-caption"><i /> Por quem começar. Quanto vale. Até quando ainda dá tempo. <i /></div>
+          <div className="panel-caption"><i /> Não é captar de novo. É reativar o que ainda cabe na janela. <i /></div>
         </article>
       </section>
 
