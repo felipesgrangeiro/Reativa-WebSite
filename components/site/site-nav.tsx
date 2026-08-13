@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { ReativaLogo } from "@/components/brand/ReativaLogo";
 import { Button } from "@/components/ui/button";
-import { SALES_CTA, SITE_NAV } from "@/components/site/site-links";
+import { LOGIN_URL, SALES_CTA, SITE_NAV } from "@/components/site/site-links";
 
 /**
  * Topo do site público, em forma de cápsula flutuante sobre a hero.
@@ -61,12 +61,12 @@ export function SiteNav() {
               aria-hidden
               className="hidden h-7 w-px bg-[rgba(120,180,200,0.16)] md:block"
             />
-            <Link
-              href="/login"
+            <a
+              href={LOGIN_URL}
               className="link-filete shrink-0 rounded text-[15px] text-[#AAB7C4] transition-colors hover:text-[#F8FAFC] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal-500/50"
             >
               Entrar
-            </Link>
+            </a>
             {/* O rótulo encurta no celular: `whitespace-nowrap` vem do Button, e
                 o texto inteiro empurrava a barra além da viewport — o que faz a
                 PÁGINA rolar de lado, não só a barra. */}

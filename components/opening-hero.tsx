@@ -1,5 +1,6 @@
 import { Clock3, DollarSign, Target } from "lucide-react";
 import { ReativaLogo } from "@/components/brand/ReativaLogo";
+import { LOGIN_URL } from "@/components/site/site-links";
 
 const BENEFITS = [
   {
@@ -34,7 +35,7 @@ export default function OpeningHero() {
           <a href="#por-que">Por que Reativa+</a>
           <a href="#para-quem">Para quem é</a>
           <a href="#diagnostico">Diagnóstico</a>
-          <a href="/login">Entrar</a>
+          <a href={LOGIN_URL}>Entrar</a>
         </nav>
 
         <a className="opening-header-cta" href="#diagnostico">Quero meu diagnóstico</a>
